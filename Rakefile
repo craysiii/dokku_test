@@ -8,6 +8,6 @@ task :start_bot do
   count = 0
   loop do
     puts "> #{count += 1}"
-    sleep 1
+    sleep 0.01
   end
 end
